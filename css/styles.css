@@ -372,6 +372,7 @@ a {
 }
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 .footer a {
   color: rgba(255, 255, 255, 0.6);
@@ -408,7 +409,6 @@ a {
   color: var(--very-light-color);
   margin-top: 0;
   margin-bottom: 20px;
-  align-items: baseline;
 }
 .footer-social-list {
   display: flex;
