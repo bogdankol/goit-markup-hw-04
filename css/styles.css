@@ -408,6 +408,7 @@ a {
   color: var(--very-light-color);
   margin-top: 0;
   margin-bottom: 20px;
+  align-items: baseline;
 }
 .footer-social-list {
   display: flex;
@@ -482,7 +483,7 @@ a {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 .portfolio-list-item {
   margin: 0 30px 30px 0;
@@ -499,6 +500,9 @@ a {
 .portfolio-list-item:focus {
 }
 .portfolio-list-link {
+  display: block;
+}
+.portfolio-list-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
